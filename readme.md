@@ -11,7 +11,7 @@ For more details about CUAD and legal contract review, see the [Atticus Project 
 
 ## Trained Models
 
-We provide checkpoints for three of the best models fine-tuned on CUAD: RoBERTa-base (~100M parameters), RoBERTa-large (~300M parameters), and DeBERTa-xlarge (~900M parameters). 
+We [provide checkpoints](https://zenodo.org/record/4599830) for three of the best models fine-tuned on CUAD: RoBERTa-base (~100M parameters), RoBERTa-large (~300M parameters), and DeBERTa-xlarge (~900M parameters). 
 
 ## Requirements
 
