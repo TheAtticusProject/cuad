@@ -13,6 +13,9 @@ For more details about CUAD and legal contract review, see the [Atticus Project 
 
 We [provide checkpoints](https://zenodo.org/record/4599830) for three of the best models fine-tuned on CUAD: RoBERTa-base (~100M parameters), RoBERTa-large (~300M parameters), and DeBERTa-xlarge (~900M parameters). 
 
+## Extra Data
+Researchers may be interested in several gigabytes of unlabeled contract pretraining data, which is available [here](https://drive.google.com/file/d/1of37X0hAhECQ3BN_004D8gm6V88tgZaB/view?usp=sharing).
+
 ## Requirements
 
 This repository requires the HuggingFace [Transformers](https://huggingface.co/transformers) library. It was tested with Python 3.8, PyTorch 1.7, and Transformers 4.3/4.4. 
