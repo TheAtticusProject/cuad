@@ -65,8 +65,8 @@ def get_jaccard(gt, pred):
     gt = gt.replace("/", " ")
     pred = pred.replace("/", " ")
 
-    gt_words = set(gt.split(" "))
-    pred_words = set(pred.split(" "))
+    gt_words = set(gt.split())
+    pred_words = set(pred.split())
 
     intersection = gt_words.intersection(pred_words)
     union = gt_words.union(pred_words)
